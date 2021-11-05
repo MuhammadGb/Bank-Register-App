@@ -334,8 +334,8 @@ export default function SignUp(props) {
                   variant="contained"
                   disabled={isDisabled()}
                   type="submit"
-                  // component={Link}
-                  // to={`/userpage:${userData}`}
+                  component={Link}
+                  to={`/userpage:${userData}`}
                 >
                   Sign up
                 </Button>
